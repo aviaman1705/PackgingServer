@@ -32,7 +32,8 @@ namespace PackgingAPI.Helpers
         {
             if (!String.IsNullOrEmpty(queryParameters.OrderBy))
             {
-                return queryParameters.OrderBy.Split(' ').Last().ToLowerInvariant().StartsWith("desc");
+                var res = queryParameters.OrderBy.Split(' ').Last().ToLowerInvariant().StartsWith("desc");
+                return res;
             }
             return false;
         }

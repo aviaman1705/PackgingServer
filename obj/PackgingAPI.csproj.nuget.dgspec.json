@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aviam\\source\\repos\\PackgingAPI\\PackgingAPI\\PackgingAPI.csproj": {}
+    "C:\\פרוייקטים\\PackgingServer\\PackgingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aviam\\source\\repos\\PackgingAPI\\PackgingAPI\\PackgingAPI.csproj": {
+    "C:\\פרוייקטים\\PackgingServer\\PackgingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aviam\\source\\repos\\PackgingAPI\\PackgingAPI\\PackgingAPI.csproj",
+        "projectUniqueName": "C:\\פרוייקטים\\PackgingServer\\PackgingAPI.csproj",
         "projectName": "PackgingAPI",
-        "projectPath": "C:\\Users\\aviam\\source\\repos\\PackgingAPI\\PackgingAPI\\PackgingAPI.csproj",
+        "projectPath": "C:\\פרוייקטים\\PackgingServer\\PackgingAPI.csproj",
         "packagesPath": "C:\\Users\\aviam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aviam\\source\\repos\\PackgingAPI\\PackgingAPI\\obj\\",
+        "outputPath": "C:\\פרוייקטים\\PackgingServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -35,7 +35,22 @@ namespace PackgingAPI
             dest.ProductName,
             opt => opt.MapFrom(src => src.Product.Name));
 
-            CreateMap<Product, ProductViewModel>();
+            CreateMap<Product, ProductViewModel>()
+                .ForMember(dest =>
+                dest.ProductId,
+                opt => opt.MapFrom(src => src.ProductId))
+                .ForMember(dest =>
+                dest.Name,
+                opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest =>
+                dest.Sku,
+                opt => opt.MapFrom(src => src.Sku))
+                .ForMember(dest =>
+                dest.Sorting,
+                opt => opt.MapFrom(src => src.Sorting))
+                .ForMember(dest =>
+                dest.Image,
+                opt => opt.MapFrom(src => src.Image));
 
             CreateMap<Product, ListItemViewModel>()
                .ForMember(dest =>

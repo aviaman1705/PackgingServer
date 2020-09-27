@@ -17,5 +17,6 @@ namespace PackgingAPI.Models.ViewModels
         }
         public string Query { get; set; }
         public string OrderBy { get; set; } = "Name";
+        public string direction { get; set; }
     }
 }

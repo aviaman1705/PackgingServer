@@ -425,7 +425,7 @@ namespace PackgingAPI.Controllers
         }
 
         [HttpPut]
-        [Route("UpdateProduct")]
+        [Route("Update")]
         public async Task<IActionResult> Update([FromBody]ProductToEditViewModel model)
         {
             if (ModelState.IsValid)

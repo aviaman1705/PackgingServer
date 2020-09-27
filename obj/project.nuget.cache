@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uYFLjar8XK0r7W94ZRgYolSk75ObS1vludkIFb7T0gfEkRI1mIE76sH3jRxVF4kMgUQFmGmFVVDuezDAjdwu8w==",
+  "dgSpecHash": "zIfTvL4j+YwOj0qyZGHiqrsqHT9orXJnQ0JEoRayR7nx7viaCcIqcrjL+1WzHFouNMRekpa0v8BRKU//JHvJMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aviam\\source\\repos\\PackgingAPI\\PackgingAPI\\PackgingAPI.csproj",
+  "projectFilePath": "C:\\פרוייקטים\\PackgingServer\\PackgingAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aviam\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\aviam\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
